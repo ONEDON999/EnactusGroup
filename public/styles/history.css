@@ -1,3 +1,9 @@
 .bg-color{
     background-color: #D2D2D2;
 }
+#menu-toggle:checked + #menu {
+    display: block;
+  }
+  .nav-active{
+    color: #0B848B;
+  }

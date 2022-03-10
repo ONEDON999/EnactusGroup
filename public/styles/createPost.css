@@ -1,3 +1,9 @@
+#menu-toggle:checked + #menu {
+  display: block;
+}
+.nav-active{
+  color: #0B848B;
+}
 .drop-zone {
     background-color:#fff;
     max-width: 100%;
@@ -12,7 +18,7 @@
     font-size: 20px;
     cursor: pointer;
     color: #cccccc;
-    border: 3px dashed #009578;
+    border: 3px dashed #000000;
     border-radius: 10px;
   }
   .drop-zone__prompt{
@@ -25,7 +31,6 @@
       margin-top: 10;
       margin-left: 8;
       margin-right: 8;
-     
      display: flex;
      justify-content: space-between;
   }

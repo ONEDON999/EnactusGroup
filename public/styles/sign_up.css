@@ -11,3 +11,6 @@
 .padingTop{
     padding-top: 50px;
 }
+#menu-toggle:checked + #menu {
+    display: block;
+  }

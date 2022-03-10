@@ -4,24 +4,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="./styles/sign_up.css">
+    <link rel="stylesheet" href="./styles/editkeys.css">
     <title>Document</title>
 </head>
 <body class="bg-first">
     <div>
         <section class="body-font relative h-full">
-            <div class="w-full flex justify-around items-center h-16 bg-white">
-                <div class=" ml-4 w-2/3">
-                  <img src="./enactus-transparent.png" alt="logo" class="h-16 pt-1 w-28">
-                </div>
-                <div class="flex justify-between mr-4 w-1/3">
-                    <a href="./createPost.html">Create Post</a>
-                    <a href="./history-1.html"  class=" ">History</a>
-                    <a href="./edit_keys.html" class=" ">Credentials</a>
-                    <a href="">Logout</a>
-                   
-                </div>
+          <header class="text-gray-600 body-font bg-white w-full">
+            <div class="container mx-auto flex flex-wrap items-center">
+              <a class=" ml-4 w-2/5 flex title-font font-medium items-center text-gray-900  mb-4 md:mb-0">
+                <img src="./enactus-transparent.png" alt="logo" class="h-16 pt-1 w-28">
+              </a>
+              <div class="flex ml-auto m-5 ">
+                <label for="menu-toggle" class=" hamburger cursor-pointer lg:hidden block"><svg class="fill-current text-black"
+                  xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 20 20">
+                  <title>menu</title>
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                  </svg>
+                </label>
+              </div>
+              <input class="hidden" type="checkbox" id="menu-toggle" />
+              <div class="hidden bg-opacity-60 bg-blue-300 md:bg-white lg:flex lg:items-center lg:w-auto lg:flex-wrap items-center text-base justify-center w-full" id="menu">
+                <nav class="md:mr-auto md:ml-4 md:py-1 lg:flex lg:flex-wrap items-center text-base justify-center transition ease-out duration-100">
+                  <a class="mr-5 py-3 px-2 border-b-2 border-transparent text-black hover:border-fifth hover:font-extrabold transition ease-out duration-200 block hover:text-lg cursor-pointer font-poppins" href="./createPost.html">Create Post</a>
+                  <a class="mr-5 py-3 px-2 border-b-2 border-transparent text-black hover:border-fifth hover:font-extrabold transition ease-out duration-200 block cursor-pointer font-poppins " href="./history-1.html">History</a>
+                  <a class="mr-5 py-3 px-2 border-b-2 border-transparent text-black hover:border-fifth hover:font-extrabold transition ease-out duration-200 block cursor-pointer font-poppins nav-active" href="./edit_keys.html">Credentials</a>
+                  <a class="mr-5 py-3 px-2 border-b-2 border-transparent text-black hover:border-fifth hover:font-extrabold transition ease-out duration-200 block cursor-pointer font-poppins" href="#">Logout</a>
+                </nav>
+              </div>
             </div>
+            
+          </header>
           <div class="items-center mx-auto py-20">
             <form class="lg:w-2/4 md:w-2/3 mx-auto my-3 ">
               <div class="w-2/3 mx-auto">
